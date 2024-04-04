@@ -290,7 +290,8 @@ body.connection #banner,
 body.saunders #banner,
 body.dunkelbarger #banner,
 body.morgenstern #banner,
-body.buysse #banner {
+body.buysse #banner,
+body.foy #banner {
   display:none;
 }
 body#student-work .small h1 {
@@ -309,7 +310,8 @@ body.connection .slide,
 body.saunders .slide,
 body.dunkelbarger .slide,
 body.morgenstern .slide,
-body.buysse .slide {
+body.buysse .slide,
+body.foy .slide {
   width: 50vw;
   float: right;
   margin-top: 2rem;
@@ -330,6 +332,9 @@ body.buysse {
 }
 body.morgenstern {
   background-image: url("images/morgenstern.png");
+}
+body.foy {
+  background-image: url("images/foy.png");
 }
 body.prism {
   background-image: url("images/prism.png");
