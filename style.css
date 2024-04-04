@@ -145,32 +145,36 @@ a,:link {
 }
 
 /* Specifid Slide Decks */
-body#about-us {
+body#about-us,
+body#student-work {
   background-color:white !important;
   color: #333;
 }
 
-body#about-us .slide {
+body#about-us .slide,
+body#student-work .slide {
   background-image:none !important;
   background-color:white !important;
   color: #333;
 }
-
+body#student-work #banner span,
 body#about-us #banner span {
   font-weight:400;
   color: var(--uvalib-secondary-web-orange);
 }
-
+body#student-work a,
+body#student-work a:link,
+body#student-work a:visited,
 body#about-us a,
 body#about-us a:link,
 body#about-us a:visited {
   color: var(--uvalib-secondary-cyan);
 }
-
+body#student-work a:hover,
+body#student-work a:active,
 body#about-us a:hover,
 body#about-us a:active {
   color: var(--uvalib-secondary-web-blue);
-
 }
 /* Specific Slide Styles */
 section#praxis-poster-3 {
@@ -289,6 +293,15 @@ body.morgenstern #banner,
 body.buysse #banner {
   display:none;
 }
+body#student-work .small h1 {
+  font-size: 2rem !important;
+}
+
+body#student-work .small p,
+body#student-work .small li {
+    font-size: 1.25rem !important;
+}
+
 
 body.prism .slide,
 body.your-name-here .slide,
