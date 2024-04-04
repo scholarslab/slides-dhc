@@ -267,6 +267,67 @@ section#our-teaching-philosophy img {
 width: 1000px;
 }
 
+body.prism,
+body.your-name-here,
+body.connection,
+body.saunders,
+body.dunkelbarger,
+body.morgenstern,
+body.buysse {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: bottom left;
+}
+
+body.prism #banner,
+body.your-name-here #banner,
+body.connection #banner,
+body.saunders #banner,
+body.dunkelbarger #banner,
+body.morgenstern #banner,
+body.buysse #banner {
+  display:none;
+}
+
+body.prism .slide,
+body.your-name-here .slide,
+body.connection .slide,
+body.saunders .slide,
+body.dunkelbarger .slide,
+body.morgenstern .slide,
+body.buysse .slide {
+  width: 50vw;
+  float: right;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding:5rem;
+  background: none !important;
+  box-shadow: 10px 10px rgba(0,0,0,0.25);
+  font-size:50% !important;
+}
+body.saunders {
+  background-image: url("images/saunders.png");
+}
+body.dunkelbarger {
+  background-image: url("images/dunkelbarger.png");
+}
+body.buysee {
+  background-image: url("images/buysse.png");
+}
+body.morgenstern {
+  background-image: url("images/morgenstern.png");
+}
+body.prism {
+  background-image: url("images/prism.png");
+}
+body.connection {
+  background-image: url("images/connection.png");
+}
+body.your-name-here {
+  background-image: url("images/your-name-here.png");
+}
+
 /* Deck.js Styles */
 html, body {
     height: 100%;
