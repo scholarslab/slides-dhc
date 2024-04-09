@@ -18,7 +18,7 @@
 --uvalib-text-dk-grey: #474747; /*ADA compliant for hover over shaded table rows*/
 --uvalib-text-almost-black: #212121; /*ADA compliant*/
 --uvalib-secondary-emergency-red: #E00000; /*ADA compliant*/
---uvalib-secondary-cyan: #009FDF;
+--uvalib-secondary-cyan: rgb(0, 159, 223);
 --uvalib-secondary-yellow: #FDDA24;
 --uvalib-secondary-teal: #25CAD3;
 --uvalib-secondary-magenta: #EF3F6B;
@@ -60,9 +60,9 @@ a,:link {
   align-items: center;
   width: 100vw;
   z-index: 500000;
-  padding: 2rem;
+  padding: 0.5rem 3rem;
   height: 10vh;
-  border-bottom: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(0,0,0,0.125);
 }
 
 #banner span {
@@ -75,7 +75,7 @@ a,:link {
   align-content:center;
   margin:0;
   font-weight:700;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 #banner img {
@@ -86,12 +86,7 @@ a,:link {
 
 .slide {
     height: 90vh;
-    padding-top: 10vh;
-    padding: 5rem;
-    background-image: linear-gradient(rgba(35,45,75,0.875),rgba(35,45,75,0.875)),
-      url('../images/background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background: orange;
 }
 .slide > div {
     display:flex;
@@ -99,6 +94,7 @@ a,:link {
     flex-wrap: nowrap;
     align-content:center;
     height: 100%;
+    padding: 3rem;
 }
 
 .slide h1 {
@@ -109,9 +105,9 @@ a,:link {
 }
 
 .slide h2 {
-  font-size: clamp(1.5rem, 2vw + 1.5rem, 3rem);
+  font-size: clamp(2rem, 2vw + 1.5rem, 3rem);
   margin:0;
-  font-weight: 100;
+  font-weight: 700;
 
   color: var(--uvalib-main-rotunda-orange);
 }
