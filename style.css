@@ -290,12 +290,14 @@ body.buysse #banner,
 body.foy #banner {
   display:none;
 }
-body#student-work .small h1 {
+
+.small h1 {
   font-size: 2rem !important;
 }
 
-body#student-work .small p,
-body#student-work .small li {
+.small p,
+.small li
+{
     font-size: 1.25rem !important;
 }
 
