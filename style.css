@@ -98,7 +98,7 @@ a,:link {
 }
 
 .slide h1 {
-  font-size: clamp(4rem, 6vw + 1.5rem, 6rem);
+  font-size: clamp(2.5rem, 4vw + 1.5rem, 4rem);
   margin:0;
   font-weight: 700;
   color: var(--uvalib-main-rotunda-orange);
@@ -108,13 +108,11 @@ a,:link {
   font-size: clamp(2rem, 2vw + 1.5rem, 3rem);
   margin:0;
   font-weight: 700;
-
   color: var(--uvalib-main-rotunda-orange);
 }
 .slide p,
 .slide li {
-  font-size: clamp(1rem, 1vw + 1.25rem, 2.5rem);
-
+  font-size: clamp(1rem, 1vw + 1.25rem, 2rem);
 }
 
 .gallery {
@@ -242,7 +240,7 @@ body.research-and-development .slide {
   float: right;
   margin-top: 2rem;
   margin-right: 2rem;
-  padding:5rem;
+  padding:2rem;
   background: none !important;
   box-shadow: 10px 10px rgba(0,0,0,0.25);
 }
@@ -314,7 +312,7 @@ body.foy .slide {
   float: right;
   margin-top: 2rem;
   margin-right: 2rem;
-  padding:5rem;
+  padding:2rem;
   background: none !important;
   box-shadow: 10px 10px rgba(0,0,0,0.25);
   font-size:50% !important;
