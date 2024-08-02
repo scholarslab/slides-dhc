@@ -332,6 +332,18 @@ body.morgenstern {
 body.foy {
   background-image: url("images/foy.png");
 }
+body.leader {
+  background-image: url("images/leader.png");
+}
+body.liberia {
+  background-image: url("images/liberia.png");
+}
+body.parham {
+  background-image: url("images/parham.png");
+}
+body.sewell {
+  background-image: url("images/sewell.png");
+}
 body.prism {
   background-image: url("images/prism.png");
 }
