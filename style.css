@@ -270,6 +270,7 @@ body.your-name-here,
 body.connection,
 body.saunders,
 body.leader,
+body.mcmillen,
 body.liberia,
 body.sewell,
 body.parham,
@@ -286,6 +287,7 @@ body.prism #banner,
 body.your-name-here #banner,
 body.connection #banner,
 body.leader #banner,
+body.mcmillen #banner,
 body.liberia #banner,
 body.sewell #banner,
 body.parham #banner,
@@ -312,6 +314,7 @@ body.prism .slide,
 body.your-name-here .slide,
 body.connection .slide,
 body.leader .slide,
+body.mcmillen .slide,
 body.liberia .slide,
 body.sewell .slide,
 body.parham .slide,
@@ -346,6 +349,9 @@ body.foy {
 }
 body.leader {
   background-image: url("images/leader.png");
+}
+body.mcmillen {
+  background-image: url("images/mcmillen.png");
 }
 body.liberia {
   background-image: url("images/liberia.png");
